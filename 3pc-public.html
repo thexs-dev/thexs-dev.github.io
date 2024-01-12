@@ -16,6 +16,7 @@
     var name = "_jsonp_" + unique++;
     if (url.match(/\?/)) url += "&callback="+name;
     else url += "?callback="+name;
+    console.log(url);
     
     // Create script
     var script = document.createElement('script');
