@@ -9,7 +9,7 @@
   <div>Check the console for messages</div>
 </body>
   <script>
-    var loadJSONP = (function(){
+    var loadJSONP1 = (function(){
   var unique = 0;
   return function(url, callback, context) {
     // INIT
@@ -35,6 +35,28 @@
     document.getElementsByTagName('head')[0].appendChild(script);
   };
 })();
+
+    const fetchJSONP = (unique => url =>
+  new Promise(rs => {
+    const script = document.createElement('script');
+    const name = `_jsonp_${unique++}`;
+
+    if (url.match(/\?/)) {
+      url += `&callback=${name}`;
+    } else {
+      url += `?callback=${name}`;
+    }
+
+    script.src = url;
+    window[name] = json => {
+      rs(new Response(JSON.stringify(json)));
+      script.remove();
+      delete window[name];
+    };
+
+    document.body.appendChild(script);
+  })
+)(0);
 
     loadJSONP(
     'https://drive.google.com/uc?export=download&authuser=0&id=1WaI7N7Izz_6FszuvVjZV5u8WTk-NSVhR&callback=getJsonCallback',
