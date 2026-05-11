@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>EXAMPLE St Marys - Walton On thames.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_square</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_target">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_target</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_target</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_toilets">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_toilets</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wheel_chair_accessible">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>6600ffff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>6600ffff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_square">
+		<IconStyle>
+			<color>bf00ff00</color>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf00ff00</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_target">
+		<IconStyle>
+			<color>bf0055aa</color>
+			<scale>2.33333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf0055aa</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_toilets">
+		<IconStyle>
+			<color>bf00aa00</color>
+			<scale>2.33333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf00aa00</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible">
+		<IconStyle>
+			<color>bf0000ff</color>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf0000ff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>807fffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_square">
+		<IconStyle>
+			<color>bf00ff00</color>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf00ff00</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_target">
+		<IconStyle>
+			<color>bf0055aa</color>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf0055aa</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_toilets">
+		<IconStyle>
+			<color>bf00aa00</color>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf00aa00</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible">
+		<IconStyle>
+			<color>bf0000ff</color>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>bf0000ff</color>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>807fffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>St Marys - Walton On thames</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-0.4176964549162121</longitude>
+			<latitude>51.38714728319348</latitude>
+			<altitude>0</altitude>
+			<heading>3.045741819083393</heading>
+			<tilt>3.124009791493541</tilt>
+			<range>234.3414708296605</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<GroundOverlay>
+			<name>St Marys Internal</name>
+			<description>Internal Plan for St Marys</description>
+			<color>75ffffff</color>
+			<Icon>
+				<href>D:/Dropbox/_ARC Projects/ARC3117 St Marys Walton-on-Thames/CAD/Existing Planning_1.png</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>51.38720266579531</north>
+				<south>51.38692393856255</south>
+				<east>-0.4173518697687393</east>
+				<west>-0.4179606054472775</west>
+				<rotation>-3.541743040084839</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+		<Placemark>
+			<name>Likely Drain</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-0.4181263455987538,51.38744397433229,0 -0.4178207754141183,51.38733624996119,0 -0.4174839909865125,51.38723690332476,0 -0.4173286159178313,51.3871952788299,0 -0.4172657305114891,51.38717580091061,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Likely Drain</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-0.4181263455987538,51.38744397433229,0 -0.4178207754141183,51.38733624996119,0 -0.4174839909865125,51.38723690332476,0 -0.4174668871277332,51.3872321479203,0 -0.4174719615911726,51.38715904805528,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Preferred Toilet Provison</name>
+			<LookAt>
+				<longitude>-0.4177467800224543</longitude>
+				<latitude>51.38709484461112</latitude>
+				<altitude>0</altitude>
+				<heading>4.971380409226343</heading>
+				<tilt>0.8022216472246224</tilt>
+				<range>136.0557978364355</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4177856683262215,51.38713214736107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Potential External Composting/Septic Tank</name>
+			<LookAt>
+				<longitude>-0.4177467800224543</longitude>
+				<latitude>51.38709484461112</latitude>
+				<altitude>0</altitude>
+				<heading>4.971380409226343</heading>
+				<tilt>0.8022216472246224</tilt>
+				<range>136.0557978364355</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_square</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4178549080715988,51.38714406057237,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Approx Manhole</name>
+			<LookAt>
+				<longitude>-0.4177499079839542</longitude>
+				<latitude>51.38708888052204</latitude>
+				<altitude>0</altitude>
+				<heading>3.045699873813221</heading>
+				<tilt>0</tilt>
+				<range>135.9888262841631</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_target</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.417463198252408,51.38723217602531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Approx Manhole</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-0.4178247833198656</longitude>
+				<latitude>51.38716799594532</latitude>
+				<altitude>0</altitude>
+				<heading>3.045641367425438</heading>
+				<tilt>0</tilt>
+				<range>136.1593515296514</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_target</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4176782739738105,51.38729216992408,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Church Hall</name>
+			<LookAt>
+				<longitude>-0.4175092673189595</longitude>
+				<latitude>51.38704641695831</latitude>
+				<altitude>0</altitude>
+				<heading>3.045887903830907</heading>
+				<tilt>0</tilt>
+				<range>257.9466288236837</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_toilets</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-0.4176873592787789,51.38666217349897,0</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay>
+			<name>Graves</name>
+			<color>85ffffff</color>
+			<Icon>
+				<href>D:/Dropbox/_ARC Projects/ARC3117 St Marys Walton-on-Thames/CAD/Graveyard Plan.png</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>51.38727436855437</north>
+				<south>51.38674901679846</south>
+				<east>-0.4169690445382152</east>
+				<west>-0.4183924764934105</west>
+				<rotation>-30.28926658630371</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+		<Folder>
+			<name>Example 3D</name>
+			<open>1</open>
+			<Placemark>
+				<name>Footprint</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.4178207772760389,51.38717994053133,0 -0.4178366713970583,51.38703859191442,0 -0.4175290642054497,51.38702690942572,0 -0.4175203313042675,51.38706431310445,0 -0.4173914266180123,51.38706242166681,0 -0.4173888680031124,51.38712885604853,0 -0.4173746231933007,51.38712955784404,0 -0.4173700682704118,51.38717321091619,0 -0.4174779918657923,51.387182289609,0 -0.417478013347119,51.38713648008957,0 -0.4175150335882116,51.38713751984433,0 -0.4175111625144101,51.3871675932641,0 -0.4178207772760389,51.38717994053133,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Grounnd</name>
+				<open>1</open>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.4178207772760389,51.38717994053133,3 -0.4178366713970583,51.38703859191442,3 -0.4175290642054497,51.38702690942572,3 -0.4175203313042675,51.38706431310445,3 -0.4173914266180123,51.38706242166681,3 -0.4173888680031124,51.38712885604853,3 -0.4173746231933007,51.38712955784404,3 -0.4173700682704118,51.38717321091619,3 -0.4174779918657923,51.387182289609,3 -0.417478013347119,51.38713648008957,3 -0.4175150335882116,51.38713751984433,3 -0.4175111625144101,51.3871675932641,3 -0.4178207772760389,51.38717994053133,3 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>First</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-0.4178207772760389,51.38717994053133,6 -0.4178366713970583,51.38703859191442,6 -0.4175290642054497,51.38702690942572,6 -0.4175203313042675,51.38706431310445,6 -0.4173914266180123,51.38706242166681,6 -0.4173888680031124,51.38712885604853,6 -0.4173746231933007,51.38712955784404,6 -0.4173700682704118,51.38717321091619,6 -0.4174779918657923,51.387182289609,6 -0.417478013347119,51.38713648008957,6 -0.4175150335882116,51.38713751984433,6 -0.4175111625144101,51.3871675932641,6 -0.4178207772760389,51.38717994053133,6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>
